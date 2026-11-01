@@ -8,11 +8,11 @@ This is the public home for Android releases, feedback and community source plug
 
 ## Install and update
 
-Download the signed Android APK from [Releases](https://github.com/nixolas1/kvekk-audiobook-library-releases/releases). Android releases are free; a paid Play Store edition is being explored, with no promised date or final feature split.
+Download the signed Android APK from [Releases](https://github.com/nixolas1/kvekk-audiobook-library-releases/releases). The current release is [2026.11.01.3](https://github.com/nixolas1/kvekk-audiobook-library-releases/releases/tag/v2026.11.01.3). Android releases are free; a paid Play Store edition is being explored, with no promised date or final feature split.
 
 Add `https://github.com/nixolas1/kvekk-audiobook-library-releases` to [Obtainium](https://github.com/ImranR98/Obtainium) for update checks, or install the signed APK manually. Public release downloads need no GitHub token. Choose an APK compatible with your device. Android may ask you to allow installation and approve updates.
 
-The in-app update checker in version `2026.11.01.2` is affected by the repository rename. Use Obtainium or the Releases page for updates meanwhile.
+The built-in update checker is fixed in `2026.11.01.3`. If you have `2026.11.01.2`, upgrade once through Obtainium or the Releases page: that version cannot discover the fix itself. After upgrading, use **Profile → About & Help → Check for updates**. **Download update** opens the official APK link in your browser; Android asks you to approve installation. Updates are never installed silently.
 
 Compatible updates keep the same package and signing certificate and use a higher version code. Never uninstall an existing installation to solve a signing mismatch without first arranging how to preserve its books, accounts and settings.
 
