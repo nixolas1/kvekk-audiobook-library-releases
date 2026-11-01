@@ -2,7 +2,7 @@
 
 An Android audiobook player and library for browsing, comparing sources, downloading and listening. Previously named My Audiobooks.
 
-[Visit the website](https://kvekk-site.vercel.app/) for a look at the app and to register interest in iOS. You can register without an email, or choose an email notification for launch.
+[Visit the website](https://kvekk.no/) for a look at the app and to register interest in iOS. You can register without an email, or choose an email notification for launch.
 
 This is the public home for Android releases, feedback and community source plugins. The app’s source code remains private. This repository contains documentation, a standalone plugin checker and a metadata-only example; it contains no Android app source.
 
@@ -11,6 +11,8 @@ This is the public home for Android releases, feedback and community source plug
 Download the signed Android APK from [Releases](https://github.com/nixolas1/kvekk-audiobook-library-releases/releases). Android releases are free; a paid Play Store edition is being explored, with no promised date or final feature split.
 
 Add `https://github.com/nixolas1/kvekk-audiobook-library-releases` to [Obtainium](https://github.com/ImranR98/Obtainium) for update checks, or install the signed APK manually. Public release downloads need no GitHub token. Choose an APK compatible with your device. Android may ask you to allow installation and approve updates.
+
+The in-app update checker in version `2026.11.01.2` is affected by the repository rename. Use Obtainium or the Releases page for updates meanwhile.
 
 Compatible updates keep the same package and signing certificate and use a higher version code. Never uninstall an existing installation to solve a signing mismatch without first arranging how to preserve its books, accounts and settings.
 
