@@ -22,6 +22,6 @@ Keep passwords, tokens, account details, private URLs, personal files and unsani
 
 ## Why isn’t the app open source?
 
-The app is being developed with a controlled contributor group while its provider integrations, licensing and distribution are worked through. Its own-code license is PolyForm Noncommercial 1.0.0, which is a source-available license with commercial-use restrictions, not an unrestricted open-source license. A private repository also means the source is not currently available to the public. Publishing APKs or this plugin toolkit does not change that.
+The app is being developed with a controlled contributor group while its provider integrations, licensing and distribution are worked through. This also preserves the option of a sustainable paid player edition, without committing to a launch date or feature split. Its own-code license is PolyForm Noncommercial 1.0.0, which is a source-available license with commercial-use restrictions, not an unrestricted open-source license. A private repository also means the source is not currently available to the public. Publishing APKs or this plugin toolkit does not change that.
 
 The goal here is to make feedback and standalone plugins accessible without opening the whole app repository. This is the current arrangement, not a promise of a future source release. See [licensing](docs/licensing.md) and [contributing](CONTRIBUTING.md).
