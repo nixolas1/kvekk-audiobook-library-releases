@@ -12,7 +12,7 @@ Install Python 3, download or clone this repository and run from its root:
 python3 -I check_addon.py --strict
 ```
 
-After the repository is published, open **Profile → Sources → Browse source marketplace → link button** in the app. Paste `https://github.com/nixolas1/kvekk`, choose **Preview**, inspect the domains and capabilities, then install. Search for a known title and confirm that opening the source leads to the correct Open Library page. The install URL uses the repository’s `main` branch. Nothing is silently installed.
+Open **Profile → Sources → Browse source marketplace → link button** in the app. Paste `https://github.com/nixolas1/kvekk-audiobook-library-releases`, choose **Preview**, inspect the domains and capabilities, then install. Search for a known title and confirm that opening the source leads to the correct Open Library page. The install URL uses the repository’s `main` branch. Nothing is silently installed.
 
 ## Make your own
 
