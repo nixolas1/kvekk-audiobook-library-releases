@@ -1,0 +1,24 @@
+name: "Feature request"
+description: "Suggest an improvement to the listener journey."
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include passwords, tokens, account details, private URLs or unsanitized logs. Contributor applications do not grant access; a maintainer must explicitly agree scope and rights and invite you."
+  - type: textarea
+    id: goal
+    attributes:
+      label: "What are you trying to do?"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "What would help?"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives you have tried (optional)"
+    validations:
+      required: false

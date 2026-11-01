@@ -1,0 +1,19 @@
+{
+  "catalogVersion": 1,
+  "name": "Kvekk community example",
+  "plugins": [
+    {
+      "id": "org.openlibrary.metadata",
+      "name": "Open Library (book metadata)",
+      "description": "Book metadata and covers from Open Library. Metadata only: it does not tell whether an audiobook exists and provides no audio. Opens the work page on openlibrary.org.",
+      "version": "1.0.0",
+      "kind": "Metadata only",
+      "tags": [
+        "Books",
+        "Metadata"
+      ],
+      "package": "plugins/openlibrary-metadata.source.json",
+      "sha256": "25b6dae5ce429e647c182ccd5481c094af232706ca5c060910fb3ac6d6b2baf1"
+    }
+  ]
+}

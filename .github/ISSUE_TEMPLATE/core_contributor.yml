@@ -1,0 +1,24 @@
+name: "Core contributor application"
+description: "Request a focused contribution to the private app repository."
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include passwords, tokens, account details, private URLs or unsanitized logs. Contributor applications do not grant access; a maintainer must explicitly agree scope and rights and invite you."
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Specific improvement and proposed scope"
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: "Relevant experience and public work (optional)"
+    validations:
+      required: false
+  - type: textarea
+    id: rights
+    attributes:
+      label: "Third-party material or contribution-rights questions (optional)"
+    validations:
+      required: false

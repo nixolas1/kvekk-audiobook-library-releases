@@ -1,0 +1,36 @@
+name: "Plugin submission"
+description: "Propose a standalone declarative source plugin."
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include passwords, tokens, account details, private URLs or unsanitized logs. Contributor applications do not grant access; a maintainer must explicitly agree scope and rights and invite you."
+  - type: textarea
+    id: repository
+    attributes:
+      label: "Public plugin repository URL"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Source API, permission and content rights"
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: "What it provides and what it does not"
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: "Manifest and fixture licenses / provenance"
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: "Static validation output and in-app checks actually completed"
+    validations:
+      required: true

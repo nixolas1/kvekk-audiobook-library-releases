@@ -1,0 +1,30 @@
+name: "Bug report"
+description: "Describe a reproducible problem."
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include passwords, tokens, account details, private URLs or unsanitized logs. Contributor applications do not grant access; a maintainer must explicitly agree scope and rights and invite you."
+  - type: textarea
+    id: version
+    attributes:
+      label: "App version and Android version"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected and actual behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Sanitized screenshots or logs (optional)"
+    validations:
+      required: false

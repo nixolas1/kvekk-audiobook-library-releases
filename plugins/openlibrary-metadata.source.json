@@ -1,0 +1,31 @@
+{
+  "id": "org.openlibrary.metadata",
+  "name": "Open Library (book metadata)",
+  "description": "Book metadata and covers from Open Library. Metadata only: it does not tell whether an audiobook exists and provides no audio. Opens the work page on openlibrary.org.",
+  "version": "1.0.0",
+  "protocolVersion": 1,
+  "execution": "declarative-json",
+  "capabilities": ["catalog.search", "acquisition.resolve"],
+  "domains": ["openlibrary.org", "covers.openlibrary.org"],
+  "baseUrl": "https://openlibrary.org/",
+  "authentication": { "type": "none" },
+  "search": {
+    "url": "https://openlibrary.org/search.json?q={query}&limit=25&fields=key,title,author_name,cover_i,first_publish_year,subject",
+    "resultsPath": "docs",
+    "fields": {
+      "id": "key",
+      "title": "title",
+      "author": "author_name[]",
+      "tags": "subject[]"
+    },
+    "vars": { "cover_i": "cover_i" },
+    "templates": {
+      "cover": "https://covers.openlibrary.org/b/id/{cover_i}-L.jpg"
+    }
+  },
+  "acquisition": {
+    "type": "external",
+    "externalUrl": "https://openlibrary.org/{id:path}",
+    "label": "View on Open Library (metadata only)"
+  }
+}
